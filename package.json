@@ -1,0 +1,17 @@
+{
+  "name": "nodejs4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodejs_p5.js",
+  "dependencies": {
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node nodejs_p5.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
