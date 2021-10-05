@@ -1,5 +1,6 @@
 http = require('http');
 url = require('url');
+const port = process.env.PORT || 3000;
 querystring = require('querystring');
 function onRequest(request,response)
 {
@@ -15,5 +16,5 @@ function onRequest(request,response)
     response.write('Factorial of a given number is: '+ans);
     response.end();
 }
-http.createServer(onRequest).listen(7654);
+http.createServer(onRequest).listen(port);
 console.log('server started');
